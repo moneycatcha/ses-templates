@@ -10,6 +10,8 @@ HTML templates must be minified (using online tools) before being injected into 
 and ensure the formatter does not remove necessary spaces. These minified templates are currently put into
 [adr-platform-deploy](https://github.com/Adatree/adr-platform-deploy/blob/main/service-catalog/products/per-tenant-infra/stack-of-stacks.yaml).
 
+Suggested Minifier to closely match existing minified files: [Code Beautify](https://codebeautify.org/minify-html)
+
 ## Email Subjects
 
 | Template name              | Subject                                                                  |
